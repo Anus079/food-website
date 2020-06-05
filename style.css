@@ -1,0 +1,552 @@
+body{
+    background-color: rgb(248,248,248);
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+
+/* ...There is Nav Bar Styling Start... */
+
+.buttoncolor{
+    background-color: #484df6 !important;
+    border: 1px solid #ffffff !important;
+    color: #fff ;
+    
+}
+.fixed-top{
+  background-color:rgb(0,0,0,0.4);
+  
+}
+
+.nav-item  i{
+    margin-right: 5px !important;
+}
+.nav-item .nav-link i{
+    padding-right: px !important;
+}
+.nav-link:hover{
+    /* border: 1px solid #214dda; */
+    color: #fff;
+    background-color: #214dda;
+    box-sizing: border-box;
+    margin-right: 5px !important;
+    border-radius:100% 100% 100% 0% / 63% 0% 40% 100%  ;
+}
+.imgae{
+    width: 50px;
+    background-color: #484df6 !important;
+}
+.nav-link,.dropdown-item{
+    /* font-weight: d; */
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-link,.dropdown-item:hover{
+    color: #484df6 !important;
+}
+.nav-link{
+    box-sizing: border-box !important;
+    -webkit-transform: none;
+    -webkit-transition: none;
+    color: #ffffff !important;
+}
+
+
+/* .....xxx....There is Nav Bar coding is End..xxx.. */
+
+/* ...There is slider CSS Start.... */
+
+
+.carousel-caption{
+   bottom: 250px;
+}
+.carousel-caption > h5{
+    font-size: 50px !important;
+}
+.carousel-caption > h3 {
+    font-size: 110px !important;
+}
+.carousel-caption > P{
+    font-weight: bold;
+    font-size: 20px !important
+}
+.btn{
+    background-color: transparent !important;
+}
+.btn:hover{
+    background-color: #484df6 !important;
+}
+
+/* ......xxxx..There is slider CSS End..xxxx..... */
+
+/* ..About CSS Start .. */
+.about-section-box{
+    margin-top: 20px !important;
+}
+.about-section-box-2{
+    margin-top: 90px !important;
+}
+.food{
+    color: #214dda;
+    font-weight: bold;
+}
+/* ....xxabout CSS End ..xxxx .. */
+
+/* ......menu code css start... */
+
+
+.Centre{
+    text-align: center !important;
+    align-items: center !important;
+}
+
+    .gallery-title
+{
+    font-size: 36px;
+    color: #000000;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 26%;
+    /* right: 40%; */
+    left: 37%;
+    height: 45px;
+    border-bottom: 1px dashed #484df6;
+}
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #484df6;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 30px !important;
+    background-color: #484df6 !important;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid;
+    border-radius: 5px;
+    text-align: center;
+    color: #000 ;
+    background-color: transparent !important;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: transparent;
+    color: white;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px !important;
+}
+
+
+/* ....Hover menu code start */
+.gallery_product {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .gallery_product .text-on-hover {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    padding: 80px 0px !important;
+    background-color: rgba(0,0,0,0.6);
+    opacity: 0;
+    /* text-align: center !important?; */
+  }
+  
+  .gallery_product img {
+    display: block;
+    position: relative;
+    
+  }
+ 
+  .text-on-hover .inner-text-content {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    /* position: relative; */
+    font-size: 17px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    overflow: hidden;
+}
+
+  .gallery_product:hover .text-on-hover {
+    opacity: 1;
+    overflow: hidden;
+}
+ 
+  
+/* ....Hover menu code End */
+
+ .heading-title{
+        text-align: center;
+        margin-top: 30px !important;
+    }
+    .heading-title >p{
+       font-size: 15px;
+       letter-spacing: 2px;
+    }
+
+    
+.gallery-single{
+	margin: 30px 0px;
+}
+
+
+
+.why-text{
+    text-align: center;
+}
+.gallery-single:hover .why-text{
+	bottom: 0px;
+}
+
+
+/* ......menu code css end xxx... */
+
+/* ....Gallery css Start.. */
+.gallery-section{
+    background-color: #ffffff !important;
+}
+.Casudeo::after{
+    content: "";
+    position: absolute;
+    width: 8%;
+    right: 46%;
+    /* left: 20%; */
+    height: 40px;
+    border-bottom: 1px dashed #484df6;
+    
+    
+
+}
+.gallery-top,.gallery-last{
+    margin-top: 20px;
+    text-align: center;
+}
+.gallery-top{
+    font-weight: bold !important;
+    padding-top: 50px !important;
+    /* font-size: 200px !important; */
+}
+h3 {
+    font-size: 30px !important;
+    font-weight: bold !important;
+    /* border-bottom: 1px solid #484df6 !important; */
+    /* margin-top: 100px !important; */
+   
+}
+
+.under-line{
+    color: #484df6 !important;
+    font-weight: bold !important;
+    /* font-size: large !important; */
+    /* padding-bottom: 100px !important; */
+}
+
+
+.gallery-last .lightbox img {
+    width: 100%;
+    margin-bottom: 30px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+.gallery-last .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+/* ....xxxx.Gallery css End ..xxx.. */
+
+
+/* ...Form CSS Start */
+.form-section{
+    /* margin: 100px 0px; */
+    /* margin-left: 240px !important ; */
+    padding: 70px 0px !important;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgb(0,0,0)), url('images/Contact\ us.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.form-group{
+    margin-top: 10px !important;
+    background-color: transparent;
+    color: #fff !important;
+   
+}
+.btn-hover:hover{
+    color: #fff !important;
+}
+
+
+
+
+/* ...xxx..Form CSS End..xxx.. */
+
+
+/* ....Footer top CSS Code Start.... */
+
+.Phone-detail,.location-detail,.Email-detail{
+    overflow: hidden !important;
+    border-bottom: 1px dashed #ffffff;
+}
+footer{
+    background-color: #484df6 !important;
+    color: #ffffff;
+    padding: 20px 0px;
+}
+footer i{
+    display: block;
+	float: left;
+	width: 60px !important;
+	height: 60px !important;
+	line-height: 60px;
+	text-align: center;
+    font-size: 30px;
+}
+footer h6{
+    font-size: 15px !important;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+/* .....xxx.Footer top CSS Code End..xxx.... */
+
+/* ....Footer-bottom CSs Code Start.... */
+
+main{
+    /* margin-top: 30px !important; */
+   background-image:
+    linear-gradient(rgb(0,0,0,0.2),rgba(0,0,0,0.8)), url('images/footer\ \(2\).jpg') ;
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: #ffffff;
+   /* background: center; */
+}
+.about,.connect{
+    border-bottom: 1px dashed #ffffff;
+}
+.margin-tp{
+    padding-top: 20px !important;
+}
+
+.icon a i{
+    margin-top: 10px !important;
+    padding-right: 10px !important;
+    color: #ffffff;
+    font-size: 20px !important;
+}
+.copy-right{
+     background-color: #000;
+     padding-bottom: 15px !important;
+     text-align: center !important;
+     align-items: center !important;
+} 
+.padding{
+    /* font-weight: bold; */
+    /* font-size: 20px; */
+    padding-top: 15px !important;
+}
+
+
+/* ....xxxxxx....Footer-bottom CSs Code End.xxx..... */
+
+/* ...Menu Page Code Start */
+
+.btn{
+    color: black;
+}
+.btn:hover{
+    border: 1px solid #ffffff;
+}
+.navigation-2{
+    background-color: #484df6;
+}
+
+.card-section{
+    margin-top: 30px !important;
+    /* border: 2px solid black; */
+    padding-bottom: 20px !important;
+}
+.card{
+    margin-bottom: 30px !important;
+    
+}
+.card img{
+    transition: 0.2s ease-in-out;
+    overflow: hidden;
+    
+}
+.card:hover{
+    transform: scale(1.1);
+    overflow: hidden;
+    box-shadow: 1px 0px 1px 0px grey !important;
+ }
+.Img-on-text{
+    margin-bottom: 1rem !important;
+    background-image: url('images/deal\ image.jpg');
+    height: 450px;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+   
+}
+.text-on-image{
+    padding-top: 200px !important;
+    text-align: center;
+    align-items: center;
+    color: #484df6;
+    font-weight: bold;
+    font-size: 60px;
+    z-index: 2000;
+    text-shadow:2px 4px #000000;
+    animation-name: color ;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.text-special{
+    text-align: center;
+    margin: 30px 0;
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 70px;
+    font-weight: bold;
+    text-shadow: 3px 5px grey;
+    animation-name: bgcolor;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes color{
+    0%   { color: #484df6; }
+    25%  { color: red; }
+    50%  { color: grey; }
+    75%  { color:green; }
+    100% { color: hotpink; }
+}
+/* @keyframes bgcolor{
+    0%   { background-color: #484df6; }
+    50%  { background-color: grey; }
+    75%  { background-color: lightgoldenrodyellow; }
+    100% { background-color: hotpink; }
+
+} */
+.card-section{
+    transition: 0.3 ease-in-out;
+}
+.card{
+   transition: 0.2s ease-in-out;
+}
+.card-section ,.card:hover{
+    transform: scale(1s) !important;
+}
+
+
+/* ...XXX..MEnu Page code End...XXXX... */
+
+
+/* ...USer login form CSS..  */
+.user-form{
+    padding: 150px 0px !important;
+    background-image: linear-gradient( rgba(0,0,0,0.1),rgb(0,0,1)), url('images/User.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.User-icon{
+    font-size: 90px !important;
+}
+
+.form-container{
+    color: #fff;
+    padding: 30px;
+    box-shadow: 0px 0px 5px 0px black;
+}
+.form-inner{
+    border: 1px solid black;
+    margin-left: 1px !important;
+}
+.form-inner-1{
+  justify-content: left !important;
+    
+}
+
+/* ...USer login form CSS End..  */
+
+/* >....Reservation Form CSS  */
+
+.form-control{
+    font-weight: bold !important;
+}  
+.blue{
+    /* background-color: #484df6 !important; */
+    border: 1px solid #fff;
+    margin-bottom: 5px !important;
+} 
+.panel-body{
+    color: #fff    !important;
+    
+}
+.reservation-section{
+    padding: 70px 0px !important;
+    background-image:
+    linear-gradient(rgb(0,0,0,0.7),rgba(0,0,0,0.8)), url('images/Reservation\ table.jpg') ;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+/* >...xxx.Reservation Form CSS ENd..xxx   */
+    
+/* ....Media querry... */
+@media (min-width: 1px){
+    .card{
+        margin: 0 auto;
+    }d
+}
+@media (min-width: 576px) { 
+    .card{
+        margin: 0 auto;
+    }
+   
+}
+@media (min-width: 1000px){
+    .gallery_product .text-on-hover{
+        padding: 0 !important;
+    }
+}
