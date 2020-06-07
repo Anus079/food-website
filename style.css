@@ -2,6 +2,9 @@ body{
     background-color: rgb(248,248,248);
     font-family: 'Work Sans', sans-serif;
 }
+html{
+    scroll-behavior: smooth !important;
+}
 
 
 
@@ -47,8 +50,8 @@ body{
 }
 .nav-link{
     box-sizing: border-box !important;
-    -webkit-transform: none;
-    -webkit-transition: none;
+    /* -webkit-transform: none;
+    -webkit-transition: none; */
     color: #ffffff !important;
 }
 
@@ -292,7 +295,7 @@ h3 {
     /* margin: 100px 0px; */
     /* margin-left: 240px !important ; */
     padding: 70px 0px !important;
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgb(0,0,0)), url('images/Contact\ us.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgb(0,0,0)), url('images/Contact.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -349,7 +352,7 @@ footer h6{
 main{
     /* margin-top: 30px !important; */
    background-image:
-    linear-gradient(rgb(0,0,0,0.2),rgba(0,0,0,0.8)), url('images/footer\ \(2\).jpg') ;
+    linear-gradient(rgb(0,0,0,0.2),rgba(0,0,0,0.8)), url('Images/footer-2.jpg');
    background-repeat: no-repeat;
    background-size: cover;
    color: #ffffff;
@@ -416,7 +419,7 @@ main{
  }
 .Img-on-text{
     margin-bottom: 1rem !important;
-    background-image: url('images/deal\ image.jpg');
+    background-image: url('images/Deal.jpg');
     height: 450px;
     background-position: center center;
     background-attachment: fixed;
@@ -482,7 +485,7 @@ main{
 /* ...USer login form CSS..  */
 .user-form{
     padding: 150px 0px !important;
-    background-image: linear-gradient( rgba(0,0,0,0.1),rgb(0,0,1)), url('images/User.jpg');
+    background-image: linear-gradient( rgba(0,0,0,0.1),rgb(0,0,1)), url('Images/loginform.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -525,7 +528,7 @@ main{
 .reservation-section{
     padding: 70px 0px !important;
     background-image:
-    linear-gradient(rgb(0,0,0,0.7),rgba(0,0,0,0.8)), url('images/Reservation\ table.jpg') ;
+    linear-gradient(rgb(0,0,0,0.7),rgba(0,0,0,0.8)), url('images/Reservation.jpg') ;
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
@@ -537,7 +540,7 @@ main{
 @media (min-width: 1px){
     .card{
         margin: 0 auto;
-    }d
+    }
 }
 @media (min-width: 576px) { 
     .card{
